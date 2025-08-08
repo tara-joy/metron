@@ -1,0 +1,45 @@
+{
+  "categories": [
+    {
+      "name": "Arbeit 1",
+      "category_weekly_quota": 15
+    },
+    {
+      "name": "Arbeit 2",
+      "category_weekly_quota": 20
+    }
+  ],
+  "tags": [
+    {
+      "name": "Build"
+    },
+    {
+      "name": "Research"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "51312924-5ffb-4b6d-99af-401dbf89a837",
+      "title": "Building the CLI app",
+      "category": "Arbeit 1",
+      "tags": [
+        "Build"
+      ],
+      "start": "2025-08-08T10:20:55.934844403Z",
+      "end": "2025-08-08T11:20:55.934844403Z",
+      "duration": 60
+    },
+    {
+      "id": "ed319cf1-e970-426f-94cc-f0a4ebe8abf3",
+      "title": "Researching time tracking",
+      "category": "Arbeit 2",
+      "tags": [
+        "Research"
+      ],
+      "start": "2025-08-08T10:21:02.784415246Z",
+      "end": "2025-08-08T11:06:02.784415246Z",
+      "duration": 45
+    }
+  ],
+  "total_weekly_quota": 50
+}

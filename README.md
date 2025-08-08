@@ -83,5 +83,3 @@ Unit tests for all logic (e.g., time rounding, session creation)
 Integration tests for data flow and storage
 CLI command tests
 (Optional) End-to-end tests for web UI
-
-# metron

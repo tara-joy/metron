@@ -104,11 +104,11 @@ impl<'a> AnalysisManager<'a> {
 
         println!("\n{}", "=".repeat(60));
         println!("📈 SUMMARY");
-        println!("   Total Worktime: {:.1}h ({} minutes)", total_worktime as f64 / 60.0, total_worktime);
+        println!("   Total Work Time: {:.1}h ({} minutes)", total_work_time as f64 / 60.0, total_work_time);
         if total_overtime > 0 {
             println!("   Total Overtime: {:.1}h ({} minutes)", total_overtime as f64 / 60.0, total_overtime);
         }
-        println!("   Grand Total: {:.1}h ({} minutes)", (total_worktime + total_overtime) as f64 / 60.0, total_worktime + total_overtime);
+        println!("   Grand Total: {:.1}h ({} minutes)", (total_work_time + total_overtime) as f64 / 60.0, total_work_time + total_overtime);
         println!("   Sessions: {}", filtered_sessions.len());
 
         Ok(())
